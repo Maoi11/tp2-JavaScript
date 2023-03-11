@@ -3,7 +3,6 @@
 // Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp
 
 let mensaje = '';
-let palabra = '';
 
 do {
     let palabra = prompt('Ingresa una palabra');
