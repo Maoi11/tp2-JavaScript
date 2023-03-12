@@ -9,3 +9,14 @@
 // 1
 
 
+
+let lineas = parseInt(prompt("Ingrese la cantidad de lineas que tendrá su pirámide (no mayor de 50)")); 
+
+if (!isNaN(lineas) && lineas <= 50 && lineas > 0) {
+for (i=lineas; i>=0; i--) {
+    document.write(`${i}`.repeat(i));
+       document.write('<br>');    
+   }
+} else {
+    alert("Usted no ingresó un número válido.");
+}
