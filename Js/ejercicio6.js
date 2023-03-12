@@ -8,10 +8,9 @@
 // 666666
 // …….
 
-// let i = 1
+let i = 1
 
  for (i=1; i<=30; i++) {
-     let escribir = i
   document.write(`${i}`.repeat(i));
      document.write('<br>');    
  }
